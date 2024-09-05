@@ -6,46 +6,70 @@
 }
 
 
+/* Center the body elements */
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: Arial, sans-serif;
 	background-color: var(--backgroundColour);
-	color: var(--fontColour);
-}
-
-h1 {
+    color: var(--fontColour);
+  }
+  
+  /* Style for the heading */
+  h1 {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 50px;
+	font-family: fantasy;
     color: black;
-}
-
-#diceImage {
-	width: 20dvw;
+  }
+  
+  /* Center the diceImage and text inside it */
+  #diceImage {
+	width: 175px;
 	position: relative;
 	text-align: center;
-
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
-
-	img {
-		width: 100%;
-	}
-
-	p {
-		position: absolute;
-		top: 45%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-        font-size: 20px;
-        
-	}
-}
-
-#diceRollingArea {
-	background-color: var(--theme-100);
-	width: 90dvw;
-	min-height: 50dvh;
+	margin-bottom: 10px;
+  }
+  
+  #diceImage img {
+	width: 100%;
+  }
+  
+  #diceImage p {
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 30px;
+  }
+  
+  /* Center the diceRollingArea on the page */
+  #diceRollingArea {
+	background: var(--theme-100);
+	width: 60vw;
+	min-height: 45vh;
 	display: flex;
-	flex-wrap: wrap;
-}
-
+	justify-content: center;
+	align-items: center;
+	position: relative;
+  }
+  
+  /* Style for calculateMarks, positioned at the top right inside diceRollingArea */
+  #calculateMarks {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+  }
 /* 
 ------- Example JS ----------------
 
