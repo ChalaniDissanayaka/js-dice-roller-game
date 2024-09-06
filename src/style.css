@@ -58,6 +58,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	border: 20px solid rgb(235, 137, 137);
   }
   
   /* Style for calculateMarks, positioned at the top right inside diceRollingArea */
