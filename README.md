@@ -1,5 +1,7 @@
 # JavaScript Dice Roller Game
 
+- [Live Dice Roller Game](https://dicerolling-game.netlify.app/)
+
 ## Description:
 
 This Dice Rolling Game is a simple yet interactive web-based game created using JavaScript, HTML, and CSS. The game allows users to drag and drop a virtual dice and track their scores based on the dice rolls. It is designed to be intuitive, engaging, and visually appealing with dynamic updates of the player's score after each roll.
